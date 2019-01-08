@@ -1,0 +1,16 @@
+spring:
+  rabbitmq:
+    host: localhost
+    username: guest
+    password: guest
+    port: 5672
+
+server:
+  port: 9990
+
+queue:
+  gateway: requests-queue
+exchange:
+  gateway: requests-exchange
+routing_key:
+  gateway: "*"
