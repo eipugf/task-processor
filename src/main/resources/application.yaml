@@ -5,6 +5,12 @@ spring:
     password: guest
     port: 5672
 
+  data:
+    mongodb:
+      database: gateway
+      host: localhost
+      port: 27017
+
 server:
   port: 9990
 
